@@ -1,1 +1,335 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>stalinoview | Cinematographer</title><style>:root{--bg:#000;--fg:#fff;--muted:#888;--border:#1a1a1a;}*{margin:0;padding:0;box-sizing:border-box;}html{scroll-behavior:smooth;}body{background:var(--bg);color:var(--fg);font-family:"Segoe UI",Tahoma,Geneva,Verdana,sans-serif;line-height:1.6;}a{color:inherit;text-decoration:none;}.navbar{position:fixed;top:0;left:0;right:0;background:rgba(0,0,0,0.95);backdrop-filter:blur(10px);border-bottom:1px solid var(--border);z-index:100;padding:1rem 0;}.navbar-container{max-width:1400px;margin:0 auto;padding:0 2rem;display:flex;justify-content:space-between;align-items:center;}.logo-section{display:flex;align-items:center;gap:1rem;}.logo-circle{font-size:2rem;width:40px;height:40px;display:flex;align-items:center;justify-content:center;background:#222;border-radius:50%;}.brand-name{font-size:1.2rem;letter-spacing:0.15em;text-transform:uppercase;font-weight:700;}.brand-tagline{font-size:0.7rem;color:var(--muted);letter-spacing:0.1em;}.nav-menu{display:flex;gap:2rem;align-items:center;}.nav-link{font-size:0.8rem;letter-spacing:0.12em;text-transform:uppercase;position:relative;transition:color 0.3s;}.nav-link::after{content:"";position:absolute;bottom:-5px;left:0;width:0;height:1px;background:var(--fg);transition:width 0.3s;}.nav-link:hover::after{width:100%;}main{padding-top:80px;}.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:4rem 2rem;border-bottom:1px solid var(--border);}.hero-content{max-width:800px;}.hero-title{font-size:clamp(3rem,8vw,5rem);letter-spacing:0.2em;text-transform:uppercase;font-weight:900;margin-bottom:1rem;}.hero-subtitle{font-size:1.1rem;letter-spacing:0.1em;color:var(--muted);margin-bottom:1rem;}.hero-description{font-size:1rem;color:var(--muted);margin-bottom:2rem;line-height:1.8;}.hero-cta{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin-bottom:3rem;}.btn{padding:0.9rem 2rem;border:1px solid var(--fg);background:transparent;color:var(--fg);text-transform:uppercase;letter-spacing:0.15em;font-size:0.75rem;cursor:pointer;transition:all 0.3s;font-family:inherit;}.btn-primary{background:var(--fg);color:var(--bg);}.btn-primary:hover{background:transparent;color:var(--fg);}.btn-secondary:hover{background:var(--fg);color:var(--bg);}section{border-bottom:1px solid var(--border);padding:4rem 2rem;}.container{max-width:1400px;margin:0 auto;}.section-title{font-size:2rem;letter-spacing:0.15em;text-transform:uppercase;margin-bottom:3rem;}.category-title{font-size:1.3rem;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:2rem;margin-top:3rem;color:var(--fg);}.video-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem;margin-bottom:3rem;}.video-card{background:#050505;border:1px solid var(--border);transition:all 0.3s;overflow:hidden;display:flex;flex-direction:column;}.video-card:hover{border-color:var(--fg);transform:translateY(-5px);}.video-player{width:100%;aspect-ratio:16/9;background:#000;display:flex;align-items:center;justify-content:center;font-size:0.9rem;color:var(--muted);}.video-player video{width:100%;height:100%;object-fit:cover;}.card-content{padding:2rem;flex-grow:1;display:flex;flex-direction:column;}.card-content h3{font-size:1.2rem;letter-spacing:0.1em;margin-bottom:0.5rem;text-transform:uppercase;}.card-content p{font-size:0.9rem;color:var(--muted);margin-bottom:1rem;line-height:1.6;flex-grow:1;}.card-content a{font-size:0.85rem;color:var(--fg);border-bottom:1px solid var(--border);padding-bottom:0.25rem;transition:all 0.3s;}.card-content a:hover{border-bottom-color:var(--fg);}.placeholder-text{font-size:0.85rem;color:var(--muted);}img.logo-img{width:40px;height:40px;}@media(max-width:768px){.nav-menu{display:none;}.hero-cta{flex-direction:column;}.btn{width:100%;}.video-grid{grid-template-columns:1fr;}}</style></head><body><header class="navbar"><div class="navbar-container"><div class="logo-section"><div class="logo-circle"><img src='logo.svg' alt='stalinoview' class='logo-img'/></div><div><div class="brand-name">stalinoview</div><div class="brand-tagline">Cinematography</div></div></div><nav class="nav-menu"><a href="#home" class="nav-link">Home</a><a href="#work" class="nav-link">Work</a><a href="#services" class="nav-link">Services</a><a href="#about" class="nav-link">About</a><a href="#contact" class="nav-link">Contact</a></nav></div></header><main><section id="home" class="hero"><div class="hero-content"><h1 class="hero-title">stalinoview</h1><p class="hero-subtitle">Weddings • Pre-weddings • Song Shoots • Birthday Films • Commercial • Model Shoots • Short Films</p><p class="hero-description">Cinematic visuals capturing life's most beautiful moments</p><div class="hero-cta"><a href="#work" class="btn btn-primary">View Work</a><a href="#contact" class="btn btn-secondary">Book Now</a></div></div></section><section id="work" class="work"><div class="container"><h2 class="section-title">Featured Work</h2><p style="color:var(--muted);margin-bottom:2rem;max-width:800px;">Below are video samples from my past projects. Add your video files to the videos/ folder in the repository.</p><h3 class="category-title">Wedding Stories</h3><div class="video-grid"><article class="video-card"><div class="video-player"><video controls><source src="videos/wedding-1.mp4" type="video/mp4"><span class="placeholder-text">Video not found. Upload wedding-1.mp4 to the videos/ folder</span></video></div><div class="card-content"><h3>Wedding Highlight 1</h3><p>Cinematic bridal and wedding films</p></div></article><article class="video-card"><div class="video-player"><video controls><source src="videos/wedding-2.mp4" type="video/mp4"><span class="placeholder-text">Video not found. Upload wedding-2.mp4 to the videos/ folder</span></video></div><div class="card-content"><h3>Wedding Highlight 2</h3><p>Beautiful ceremony and reception moments</p></div></article></div><h3 class="category-title">Pre-Wedding Films</h3><div class="video-grid"><article class="video-card"><div class="video-player"><video controls><source src="videos/prewedding-1.mp4" type="video/mp4"><span class="placeholder-text">Video not found. Upload prewedding-1.mp4 to the videos/ folder</span></video></div><div class="card-content"><h3>Pre-Wedding Film 1</h3><p>Beautiful pre-wedding shoots with cinematic color grading</p></div></article><article class="video-card"><div class="video-player"><video controls><source src="videos/prewedding-2.mp4" type="video/mp4"><span class="placeholder-text">Video not found. Upload prewedding-2.mp4 to the videos/ folder</span></video></div><div class="card-content"><h3>Pre-Wedding Film 2</h3><p>Romantic outdoor couple shots</p></div></article></div><h3 class="category-title">Model & Fashion</h3><div class="video-grid"><article class="video-card"><div class="video-player"><video controls><source src="videos/fashion-1.mp4" type="video/mp4"><span class="placeholder-text">Video not found. Upload fashion-1.mp4 to the videos/ folder</span></video></div><div class="card-content"><h3>Fashion Reel 1</h3><p>Bold, stylish fashion and model shoots</p></div></article><article class="video-card"><div class="video-player"><video controls><source src="videos/fashion-2.mp4" type="video/mp4"><span class="placeholder-text">Video not found. Upload fashion-2.mp4 to the videos/ folder</span></video></div><div class="card-content"><h3>Fashion Reel 2</h3><p>Editorial fashion cinematography</p></div></article></div><h3 class="category-title">Commercial Shoots</h3><div class="video-grid"><article class="video-card"><div class="video-player"><video controls><source src="videos/commercial-1.mp4" type="video/mp4"><span class="placeholder-text">Video not found. Upload commercial-1.mp4 to the videos/ folder</span></video></div><div class="card-content"><h3>Brand Film 1</h3><p>Professional brand films and commercial projects</p></div></article><article class="video-card"><div class="video-player"><video controls><source src="videos/commercial-2.mp4" type="video/mp4"><span class="placeholder-text">Video not found. Upload commercial-2.mp4 to the videos/ folder</span></video></div><div class="card-content"><h3>Brand Film 2</h3><p>Product and service commercials</p></div></article></div></div></section><section id="services"><div class="container"><h2 class="section-title">Services</h2><div style="display:grid;gap:2rem;max-width:600px;"><h3>Wedding Cinematography • Pre-Wedding Films • Song Shoots & Music Videos • Birthday & Event Shoots • Commercial & Brand Films • Model & Fashion Shoots • Short Films • Color Grading & Editing</h3></div></div></section><section id="about"><div class="container"><h2 class="section-title">About</h2><p style="max-width:600px;color:var(--muted);line-height:1.8;">stalinoview is the work of a visual storyteller and wedding cinematographer passionate about exploring and capturing the beauty in life's moments. With a focus on cinematic visuals, mood, and emotion, every frame is carefully crafted to tell a compelling story. From intimate weddings to dynamic commercial shoots, from urban cinematography to fashion editorial work—each project receives dedicated attention to detail and artistic direction.</p></div></section><section id="contact"><div class="container"><h2 class="section-title">Get In Touch</h2><div style="max-width:600px;"><p style="color:var(--muted);margin-bottom:2rem;">Book your next project or inquire about our services.</p><a href="https://www.instagram.com/stalinoview" target="_blank" class="btn btn-primary">Contact on Instagram</a></div></div></section></main><footer style="background:#050505;border-top:1px solid var(--border);padding:2rem;text-align:center;color:var(--muted);font-size:0.85rem;"><p>© 2025 stalinoview | Professional Cinematography</p></footer></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>stalinoview | Cinematographer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header" id="home">
+    <div class="container header-inner">
+      <a href="#home" class="logo">
+        <span class="logo-mark"></span>
+        <span class="logo-text">stalinoview</span>
+      </a>
+
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#work">Work</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a href="#contact" class="header-cta">Book Now</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <div class="hero-text">
+        <p class="eyebrow">Cinematography</p>
+        <h1>
+          STALINOVIEW
+        </h1>
+        <p class="hero-subtitle">
+          Weddings • Pre-weddings • Song Shoots • Birthday Films • Commercial •
+          Model Shoots • Short Films
+        </p>
+        <p class="hero-subtitle">
+          Cinematic visuals capturing life's most beautiful moments
+        </p>
+        <div class="hero-actions">
+          <a href="#work" class="btn primary">View Work</a>
+          <a href="#contact" class="btn ghost">Book Now</a>
+        </div>
+        <div class="hero-tags">
+          <span>Wedding Films</span>
+          <span>Pre-weddings</span>
+          <span>Fashion Reels</span>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <p class="hero-card-label">Featured Work</p>
+        <p class="hero-card-title">Selected cinematic projects</p>
+        <p class="hero-card-body">
+          Wedding highlights, pre-wedding films, model reels, and commercial
+          brand stories crafted with emotion and detail.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section id="work" class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>Featured Work</h2>
+        <p>
+          Below are video samples from my past projects. Add your video files to
+          the videos/ folder in the repository.
+        </p>
+      </div>
+
+      <!-- WEDDING STORIES -->
+      <div class="work-block">
+        <div class="work-head">
+          <h3>Wedding Stories</h3>
+          <p>Cinematic bridal and wedding films.</p>
+        </div>
+        <div class="grid grid-2">
+          <article class="work-card">
+            <div class="work-thumbnail wedding-1"></div>
+            <div class="work-content">
+              <h4>Wedding Highlight 1</h4>
+              <p>Cinematic bridal and wedding films.</p>
+              <span class="work-tag">Wedding highlight</span>
+            </div>
+          </article>
+
+          <article class="work-card">
+            <div class="work-thumbnail wedding-2"></div>
+            <div class="work-content">
+              <h4>Wedding Highlight 2</h4>
+              <p>Beautiful ceremony and reception moments.</p>
+              <span class="work-tag">Wedding story</span>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- PRE-WEDDING FILMS -->
+      <div class="work-block">
+        <div class="work-head">
+          <h3>Pre-wedding Films</h3>
+          <p>Beautiful pre-wedding shoots with cinematic color grading.</p>
+        </div>
+        <div class="grid grid-2">
+          <article class="work-card">
+            <div class="work-thumbnail prewedding-1"></div>
+            <div class="work-content">
+              <h4>Pre-wedding Film 1</h4>
+              <p>Beautiful pre-wedding shoots with cinematic color grading.</p>
+              <span class="work-tag">Pre-wedding</span>
+            </div>
+          </article>
+
+          <article class="work-card">
+            <div class="work-thumbnail prewedding-2"></div>
+            <div class="work-content">
+              <h4>Pre-wedding Film 2</h4>
+              <p>Romantic outdoor couple shots.</p>
+              <span class="work-tag">Outdoor shoot</span>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- MODEL & FASHION -->
+      <div class="work-block">
+        <div class="work-head">
+          <h3>Model & Fashion</h3>
+          <p>Bold, stylish fashion and model shoots.</p>
+        </div>
+        <div class="grid grid-2">
+          <article class="work-card">
+            <div class="work-thumbnail fashion-1"></div>
+            <div class="work-content">
+              <h4>Fashion Reel 1</h4>
+              <p>Bold, stylish fashion and model shoots.</p>
+              <span class="work-tag">Fashion reel</span>
+            </div>
+          </article>
+
+          <article class="work-card">
+            <div class="work-thumbnail fashion-2"></div>
+            <div class="work-content">
+              <h4>Fashion Reel 2</h4>
+              <p>Editorial fashion cinematography.</p>
+              <span class="work-tag">Editorial</span>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- COMMERCIAL SHOOTS -->
+      <div class="work-block">
+        <div class="work-head">
+          <h3>Commercial Shoots</h3>
+          <p>Professional brand films and commercial projects.</p>
+        </div>
+        <div class="grid grid-2">
+          <article class="work-card">
+            <div class="work-thumbnail commercial-1"></div>
+            <div class="work-content">
+              <h4>Brand Film 1</h4>
+              <p>Professional brand films and commercial projects.</p>
+              <span class="work-tag">Brand film</span>
+            </div>
+          </article>
+
+          <article class="work-card">
+            <div class="work-thumbnail commercial-2"></div>
+            <div class="work-content">
+              <h4>Brand Film 2</h4>
+              <p>Product and service commercials.</p>
+              <span class="work-tag">Commercial</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <h2>Services</h2>
+        <p>
+          Wedding Cinematography • Pre-Wedding Films • Song Shoots & Music
+          Videos • Birthday & Event Shoots • Commercial & Brand Films • Model &
+          Fashion Shoots • Short Films • Color Grading & Editing
+        </p>
+      </div>
+
+      <div class="grid grid-3">
+        <div class="service-card">
+          <h3>Weddings & Events</h3>
+          <p>
+            Wedding cinematography, pre-wedding films, birthday and event
+            shoots.
+          </p>
+          <ul>
+            <li>Wedding cinematography</li>
+            <li>Pre-wedding films</li>
+            <li>Birthday & event shoots</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <h3>Commercial & Brand</h3>
+          <p>
+            Commercial projects and brand films that tell your story visually.
+          </p>
+          <ul>
+            <li>Brand films</li>
+            <li>Product videos</li>
+            <li>Campaign visuals</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <h3>Fashion & Post</h3>
+          <p>
+            Model and fashion shoots with dedicated color grading and editing.
+          </p>
+          <ul>
+            <li>Model & fashion shoots</li>
+            <li>Short films</li>
+            <li>Color grading & editing</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container about-grid">
+      <div class="about-text">
+        <h2>About stalinoview</h2>
+        <p>
+          stalinoview is the work of a visual storyteller and wedding
+          cinematographer passionate about exploring and capturing the beauty in
+          life's moments.
+        </p>
+        <p>
+          With a focus on cinematic visuals, mood, and emotion, every frame is
+          carefully crafted to tell a compelling story. From intimate weddings
+          to dynamic commercial shoots, from urban cinematography to fashion
+          editorial work—each project receives dedicated attention to detail and
+          artistic direction.
+        </p>
+      </div>
+
+      <div class="about-meta">
+        <div class="about-stat">
+          <span class="about-label">Specialties</span>
+          <p>Weddings, pre-weddings, commercial, fashion, short films</p>
+        </div>
+        <div class="about-stat">
+          <span class="about-label">Approach</span>
+          <p>Cinematic storytelling with focus on mood and emotion</p>
+        </div>
+        <div class="about-stat">
+          <span class="about-label">Location</span>
+          <p>Available for projects across India</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section-alt">
+    <div class="container contact-grid">
+      <div>
+        <h2>Get in touch</h2>
+        <p>
+          Book your next project or inquire about our services.
+        </p>
+        <a
+          href="https://www.instagram.com/stalinoview"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn primary"
+        >
+          Contact on Instagram
+        </a>
+      </div>
+
+      <div class="contact-note">
+        <p>
+          Share your event date, location, and the type of project (wedding,
+          pre-wedding, fashion, commercial, etc.) to receive a tailored quote
+          and booking details.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2025 stalinoview | Professional Cinematography</p>
+      <p class="footer-sub">Every story deserves a cinematic frame.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scrolling for in-page links
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+      link.addEventListener("click", e => {
+        const targetId = link.getAttribute("href");
+        if (targetId.length > 1) {
+          e.preventDefault();
+          document.querySelector(targetId).scrollIntoView({
+            behavior: "smooth"
+          });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
